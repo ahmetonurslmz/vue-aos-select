@@ -1,6 +1,6 @@
 {
-  "name": "vue-select",
-  "version": "3.11.2",
+  "name": "vue-aos-select",
+  "version": "1.0.0",
   "description": "Everything you wish the HTML <select> element could do, wrapped up into a lightweight, extensible Vue component.",
   "author": "Jeff Sagal <sagalbot@gmail.com>",
   "homepage": "https://vue-select.org",
@@ -14,17 +14,11 @@
   "prepare": "npm run build",
   "scripts": {
     "serve": "webpack-dev-server --config build/webpack.dev.conf.js --hot --progress -d",
-    "serve:docs": "cd docs && yarn serve",
-    "build": "cross-env NODE_ENV=production webpack --config build/webpack.prod.conf.js --progress",
-    "build:docs": "cd docs && yarn build",
-    "build:preview": "cd docs && yarn build",
-    "test": "jest",
-    "semantic-release": "semantic-release",
-    "commit": "git-cz"
+    "build": "cross-env NODE_ENV=production webpack --config build/webpack.prod.conf.js --progress"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sagalbot/vue-select.git"
+    "url": "https://github.com/ahmetonurslmz/vue-aos-select"
   },
   "peerDependencies": {
     "vue": "3.x"
