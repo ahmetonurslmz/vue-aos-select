@@ -1,6 +1,6 @@
 {
   "name": "vue-aos-select",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Classic vue-select is with Vue3 compatibility",
   "homepage": "https://vue-select.org",
   "private": false,
