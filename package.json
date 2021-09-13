@@ -1,13 +1,8 @@
 {
   "name": "vue-aos-select",
-  "version": "1.0.0",
-  "description": "Everything you wish the HTML <select> element could do, wrapped up into a lightweight, extensible Vue component.",
-  "author": "Jeff Sagal <sagalbot@gmail.com>",
+  "version": "1.0.1",
+  "description": "Classic vue-select is with Vue3 compatibility",
   "homepage": "https://vue-select.org",
-  "directories": {
-    "doc": "docs",
-    "test": "tests"
-  },
   "private": false,
   "main": "dist/vue-select.js",
   "license": "MIT",
