@@ -39,11 +39,12 @@ yarn add vue-aos-select
 npm install vue-aos-select
 ```
 
-Then, import and register the component:
+Then, import and register the component from node_modules:
 
 ```js
 import Vue from "vue";
-import vSelect from "vue-aos-select";
+
+import vSelect from "../../node_modules/vue-aos-select/src/index";
 
 Vue.component("v-select", vSelect);
 ```
